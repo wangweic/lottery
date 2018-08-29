@@ -1354,6 +1354,7 @@ section.info p {
 	padding: 0rem 1rem;
 	height: 3.5rem;
 	line-height: 3.5rem;
+	font-size: 1.2rem;
 }
 
 section.info p strong {
@@ -1429,6 +1430,7 @@ footer div button {
 	border-radius: 0.5rem;
 	line-height: 3rem;
 	margin-top: 1rem;
+	font-size: 1.4rem;
 }
 
 footer div button:nth-child(1) {
