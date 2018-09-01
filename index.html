@@ -4,41 +4,102 @@
 	<head>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" href="./css/a.css" />
+		<script src="//at.alicdn.com/t/font_818625_k4qpdik8ts.js"></script>
 		<title>王伟超的个人简历</title>
+		<style type="text/css">
+			.icon {
+				width: 1em;
+				height: 1em;
+				vertical-align: -0.15em;
+				fill: currentColor;
+				overflow: hidden;
+			}
+		</style>
 	</head>
 
 	<body>
-		<div class="topNavBar clearfix">
-			<a class="logo" href="#" alt='logo'>
-				<span class="rs">RS</span><span class="card">card</span>
-			</a>
-			<nav class="clearfix">
-				<ul class="clearfix">
-					<li>
-						<a href="#">关于</a>
-					</li>
-					<li>
-						<a href="#">技能</a>
-					</li>
-					<li>
-						<a href="#">作品</a>
-					</li>
-					<li>
-						<a href="#">博客</a>
-					</li>
-					<li>
-						<a href="#">日历</a>
-					</li>
-					<li>
-						<a href="#">联系方式</a>
-					</li>
-					<li>
-						<a href="#">其它</a>
-					</li>
-				</ul>
-			</nav>
-			
+		<svg class="icon" aria-hidden="true">
+			<use xlink:href="#icon-weibo"></use>
+		</svg>
+		<div class="topNavBar">
+			<div class="topNavBar-inner clearfix">
+				<a class="logo" href="#" alt='logo'>
+					<span class="rs">RS</span><span class="card">card</span>
+				</a>
+				<nav class="clearfix">
+					<ul class="clearfix">
+						<li>
+							<a href="#">关于</a>
+						</li>
+						<li>
+							<a href="#">技能</a>
+						</li>
+						<li>
+							<a href="#">作品</a>
+						</li>
+						<li>
+							<a href="#">博客</a>
+						</li>
+						<li>
+							<a href="#">日历</a>
+						</li>
+						<li>
+							<a href="#">联系方式</a>
+						</li>
+						<li>
+							<a href="#">其它</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
 		</div>
+		<div class="banner">
+			<div class="mark"></div>
+		</div>
+		<main>
+			<div class="userCard">
+				<div class="pictureAndText clearfix">
+					<div class="picture">
+						<img src="./img/startuper.jpg" width="299" height="347" alt="头像" />
+					</div>
+					<div class="text">
+						<span class="welcome">Hello
+							<span class="trin"></span>
+						</span>
+						<h1>王伟超</h1>
+						<p>前端开发工程师</p>
+						<hr />
+						<dl>
+							<dt>年龄</dt>
+							<dd>26</dd>
+							<dt>所在城市</dt>
+							<dd>北京</dd>
+							<dt>游戏</dt>
+							<dd>weichao447154678@163.com</dd>
+							<dt>手机</dt>
+							<dd>18911082723</dd>
+						</dl>
+					</div>
+				</div>
+				<footer class="media">
+					<a href="#">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#icon-github"></use>
+						</svg>
+					</a>
+					<a href="#">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#icon-socialmediaiconwhitetwitter-copy"></use>
+						</svg>
+					</a>
+					<a href="#">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#icon-weibo"></use>
+						</svg>
+					</a>
+				</footer>
+			</div>
+		</main>
 	</body>
 
 </html>
