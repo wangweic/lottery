@@ -117,7 +117,9 @@ hr {
 }
 
 .userCard {
-	border: 1px solid red;
+	position: fixed;
+	top:30%;
+	left: 15%;
 	max-width: 940px;
 	margin: 0 auto;
 	background: #FFF;
@@ -182,6 +184,24 @@ hr {
 	color: #9da07;
 }
 
-.userCard>footer.media {
+.userCard > footer.media {
 	background: #E6686A;
+	text-align: center;
+} 
+.userCard > footer.media > a {
+	display: inline-block;
+	border-radius: 50%;
+	line-height: 30px;
+	width: 40px;
+	padding: 5px 0;
+	margin: 16px;
+}
+.userCard > footer.media > a:hover{
+	background: #CF5D5F;
+}
+.userCard svg{
+	fill: white;
+	width: 30px;
+	height: 30px;
+	vertical-align: top;
 }
