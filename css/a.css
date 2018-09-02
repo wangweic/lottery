@@ -117,9 +117,6 @@ hr {
 }
 
 .userCard {
-	position: fixed;
-	top:30%;
-	left: 15%;
 	max-width: 940px;
 	margin: 0 auto;
 	background: #FFF;
